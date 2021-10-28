@@ -16,7 +16,7 @@ def add():
     pos = ms.locateCenterOnScreen('start.png')
     ms.moveTo(pos.x, pos.y , 0.5)
     ms.click()
-    time.sleep(3)
+    time.sleep(5)
     ms.hotkey("ctrlleft", "w")
     pos = ms.locateCenterOnScreen('nxt.png')
     ms.moveTo(pos.x, pos.y)
